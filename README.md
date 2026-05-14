@@ -79,12 +79,3 @@ ORDER BY s.customer_id;
 | [Schema.SQL](./Schema.SQL) | Database schema and seed data |
 | [Business_analysis.SQL](./Business_analysis.SQL) | All query solutions |
 
----
-
-## 🗄️ Database Schema
-
-Three tables:
-
-- **sales** — customer transactions (customer_id, order_date, product_id)
-- **menu** — product details (product_id, product_name, price)
-- **members** — loyalty program join dates (customer_id, join_date)
