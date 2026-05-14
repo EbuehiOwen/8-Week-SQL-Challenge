@@ -1,5 +1,7 @@
 # 🍜 SQL Case Study: Danny's Diner Analysis
 
+Part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/)
+
 ## 📌 Project Overview
 This repository contains the SQL architecture and business analysis for Danny's Diner, a fictional restaurant looking to leverage customer data to optimize operations, marketing campaigns, and a new loyalty program. 
 
@@ -68,3 +70,21 @@ LEFT JOIN dannys_diner.members m USING (customer_id)
 WHERE EXTRACT(MONTH FROM s.order_date) = 1
 GROUP BY s.customer_id
 ORDER BY s.customer_id;
+```
+
+## 📂 Files
+
+| File | Description |
+|---|---|
+| [Schema.SQL](./Schema.SQL) | Database schema and seed data |
+| [Business_analysis.SQL](./Business_analysis.SQL) | All query solutions |
+
+---
+
+## 🗄️ Database Schema
+
+Three tables:
+
+- **sales** — customer transactions (customer_id, order_date, product_id)
+- **menu** — product details (product_id, product_name, price)
+- **members** — loyalty program join dates (customer_id, join_date)
