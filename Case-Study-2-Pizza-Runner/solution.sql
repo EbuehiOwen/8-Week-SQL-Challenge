@@ -243,13 +243,17 @@ WITH base_pizza_revenue AS (
     JOIN pizza_runner.pizza_names pn ON cco.pizza_id = pn.pizza_id
     WHERE cro.cancellation IS NULL
 ),
-extras_revenue AS (
-    SELECT COUNT(UNNEST(STRING_TO_ARRAY(cco.extras, ', '))) * 1 AS extras_total
+split_extras AS (
+    SELECT UNNEST(STRING_TO_ARRAY(cco.extras, ', ')) AS extra
     FROM pizza_runner.clean_customer_orders cco
     JOIN pizza_runner.clean_runner_orders cro ON cco.order_id = cro.order_id
     WHERE cro.cancellation IS NULL
     AND cco.extras IS NOT NULL
     AND cco.extras NOT IN ('', 'null')
+),
+extras_revenue AS (
+    SELECT COUNT(extra) AS extras_total
+    FROM split_extras
 )
 SELECT 
     b.base_total,
