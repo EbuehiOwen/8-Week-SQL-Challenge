@@ -16,13 +16,13 @@ Danny launched Pizza Runner, a pizza delivery service that combines fresh pizza 
 A 3-page interactive Power BI dashboard visualizing the SQL analysis:
 
 **Page 1 — Pizza Metrics**
-![Pizza Metrics Dashboard](./Page%201%20-%20Pizza%20Metrics.png)
+![Pizza Metrics Dashboard](./page1_pizza_metrics.png)
 
 **Page 2 — Runner & Customer Experience**
-![Runner Experience Dashboard](./Page%202%20-%20Runner%20Experience.png)
+![Runner Experience Dashboard](./page2_runner_experience.png)
 
 **Page 3 — Revenue & Insights**
-![Revenue Insights Dashboard](./Page%203%20-%20Revenue%20Insights.png)
+![Revenue Insights Dashboard](./page3_revenue_insights.png)
 
 > Download the [interactive report](./pizza_runner_dashboard.pbix) to explore it in Power BI Desktop.
 
