@@ -1,23 +1,30 @@
 # 🍕 Case Study #2 - Pizza Runner
-
 > Part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/)
 
 ---
 
 ## 📌 Overview
-
 Danny launched Pizza Runner, a pizza delivery service that combines fresh pizza with an Uber-style delivery network of runners. This case study explores operational data to help Danny better understand his business performance across orders, deliveries, ingredients and revenue.
 
-**Tools used:** PostgreSQL  
-**Concepts:** Data Cleaning, CTEs, JOINs, Window Functions, Aggregations, UNNEST, String Manipulation, Table Design
+**Tools used:** PostgreSQL, Power BI  
+**Concepts:** Data Cleaning, CTEs, JOINs, Window Functions, Aggregations, UNNEST, String Manipulation, Table Design, Data Visualization
 
 ---
 
-## 📂 Files
+## 📊 Dashboard Preview
 
-| File | Description |
-|---|---|
-| [solution.sql](./solution.sql) | All query solutions including data cleaning |
+A 3-page interactive Power BI dashboard visualizing the SQL analysis:
+
+**Page 1 — Pizza Metrics**
+![Pizza Metrics Dashboard](./Page%201%20-%20Pizza%20Metrics.png)
+
+**Page 2 — Runner & Customer Experience**
+![Runner Experience Dashboard](./Page%202%20-%20Runner%20Experience.png)
+
+**Page 3 — Revenue & Insights**
+![Revenue Insights Dashboard](./Page%203%20-%20Revenue%20Insights.png)
+
+> Download the [interactive report](./pizza_runner_dashboard.pbix) to explore it in Power BI Desktop.
 
 ---
 
@@ -250,4 +257,15 @@ Both were cleaned into permanent tables (`clean_customer_orders` and `clean_runn
 
 ---
 
-*Challenge created by [Danny Ma](https://8weeksqlchallenge.com/) | Solutions by [Owen Ebuehi](www.linkedin.com/in/owenebuehi)*
+## 📂 Files
+| File | Description |
+|---|---|
+| `solution.sql` | All query solutions including data cleaning |
+| `pizza_runner_dashboard.pbix` | Interactive Power BI report (3 pages) |
+| `Page 1 - Pizza Metrics.png` | Dashboard page 1 screenshot |
+| `Page 2 - Runner Experience.png` | Dashboard page 2 screenshot |
+| `Page 3 - Revenue Insights.png` | Dashboard page 3 screenshot |
+
+---
+
+*Challenge created by [Danny Ma](https://8weeksqlchallenge.com/) | Solutions by [Owen Ebuehi](https://www.linkedin.com/in/owenebuehi)*
