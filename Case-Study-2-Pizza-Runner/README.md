@@ -128,11 +128,11 @@ Both were cleaned into permanent tables (`clean_customer_orders` and `clean_runn
 ---
 
 **Q2: What was the average time for each runner to arrive at HQ for pickup?**
-| runner_id | avg_pickup_minutes |
-|---|---|
-| 1 | 15.68 |
-| 2 | 23.72 |
-| 3 | 10.47 |
+runner_id|avg_pickup_minutes|
+---------+------------------+
+        1|             14.33|
+        2|             20.01|
+        3|             10.47|
 
 ---
 
