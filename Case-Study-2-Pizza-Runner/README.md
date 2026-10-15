@@ -239,7 +239,7 @@ runner_id|avg_pickup_minutes|
 **Q5: Revenue after paying runners $0.30 per km**
 | actual_revenue |
 |---|
-| $94.44 |
+| $98.44 |
 
 > 📊 **Insight:** After paying runners, Pizza Runner retains $94.44 of the $138 total revenue — a profit margin of approximately 68.4%. Runner costs account for $43.56 (31.6% of revenue). This is a healthy margin for a food delivery business, though scaling delivery distances could significantly impact profitability.
 
