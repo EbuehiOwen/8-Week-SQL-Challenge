@@ -260,7 +260,7 @@ runner_id|avg_pickup_minutes|
 ## 📂 Files
 | File | Description |
 |---|---|
-| `solution.sql` | All query solutions including data cleaning |
+| `Project solution.sql` | All query solutions including data cleaning |
 | `pizza_runner_dashboard.pbix` | Interactive Power BI report (3 pages) |
 | `Page 1 - Pizza Metrics.png` | Dashboard page 1 screenshot |
 | `Page 2 - Runner Experience.png` | Dashboard page 2 screenshot |
